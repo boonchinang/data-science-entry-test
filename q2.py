@@ -7,8 +7,8 @@ def find_and_replace(lst, find_val, replace_val):
     """
     # Check whether lst is a list, if not return -1
     if not isinstance(lst, list):
-        return -1
-    
+        return 
+      
     # If lst is a list, iterate through it and replace occurrences of (find_val) with (replace_val). len(lst) is used to get the number of elements in the list, and range() produces a sequence of integers from 0 up to len(lst) to access each element of the list using its index.
     for i in range(len(lst)):       
         if lst[i] == find_val:
